@@ -1,0 +1,3 @@
+[console_scripts]
+node = main_pkg.node:main
+

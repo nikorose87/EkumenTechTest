@@ -1,0 +1,38 @@
+[0.210s] Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --editable --build-directory /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build --no-deps install_data --install-dir /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg
+[0.371s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.371s]   warnings.warn(
+[0.371s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.371s]   warnings.warn(
+[0.403s] running develop
+[0.403s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.403s]   warnings.warn(
+[0.405s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.405s]   warnings.warn(
+[0.442s] /home/nikorose/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.13.1-unknown is an invalid version and will not be supported in a future release
+[0.442s]   warnings.warn(
+[0.442s] /home/nikorose/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[0.442s]   warnings.warn(
+[0.442s] /home/nikorose/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[0.442s]   warnings.warn(
+[0.510s] running egg_info
+[0.511s] creating main_pkg.egg-info
+[0.511s] writing main_pkg.egg-info/PKG-INFO
+[0.511s] writing dependency_links to main_pkg.egg-info/dependency_links.txt
+[0.511s] writing entry points to main_pkg.egg-info/entry_points.txt
+[0.511s] writing requirements to main_pkg.egg-info/requires.txt
+[0.511s] writing top-level names to main_pkg.egg-info/top_level.txt
+[0.512s] writing manifest file 'main_pkg.egg-info/SOURCES.txt'
+[0.513s] reading manifest file 'main_pkg.egg-info/SOURCES.txt'
+[0.514s] writing manifest file 'main_pkg.egg-info/SOURCES.txt'
+[0.539s] running build_ext
+[0.539s] Creating /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages/main-pkg.egg-link (link to .)
+[0.539s] Installing node script to /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/main_pkg
+[0.540s] 
+[0.540s] Installed /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg
+[0.540s] running install_data
+[0.540s] creating /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/ament_index
+[0.540s] creating /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/ament_index/resource_index
+[0.540s] creating /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/ament_index/resource_index/packages
+[0.540s] copying resource/main_pkg -> /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/ament_index/resource_index/packages
+[0.540s] copying package.xml -> /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg
+[0.561s] Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg' returned '0': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --editable --build-directory /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build --no-deps install_data --install-dir /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg
