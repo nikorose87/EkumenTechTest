@@ -1,0 +1,243 @@
+[0.258s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.259s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f61890ac0d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f61890ac0d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f618887d610>)
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.263s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nikorose/Documents/Repos/EkumenTechTest'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_pkg' with type 'ros.ament_python' and name 'main_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot/two_wheeled_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot/two_wheeled_robot) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot/two_wheeled_robot) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot/two_wheeled_robot) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot/two_wheeled_robot) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot/two_wheeled_robot) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot/two_wheeled_robot) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot/two_wheeled_robot) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot/two_wheeled_robot) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_wheeled_robot/two_wheeled_robot' with type 'ros.ament_cmake' and name 'two_wheeled_robot'
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'main_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg', 'merge_install': False, 'path': '/home/nikorose/Documents/Repos/EkumenTechTest/src/main_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'two_wheeled_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot', 'merge_install': False, 'path': '/home/nikorose/Documents/Repos/EkumenTechTest/src/two_wheeled_robot/two_wheeled_robot', 'symlink_install': True, 'test_result_base': None}
+[0.301s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.303s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.303s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/main_pkg' with build type 'ament_python'
+[0.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_pkg', 'ament_prefix_path')
+[0.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/ament_prefix_path.ps1'
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/ament_prefix_path.dsv'
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/ament_prefix_path.sh'
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.317s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/two_wheeled_robot/two_wheeled_robot' with build type 'ament_cmake'
+[0.317s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/two_wheeled_robot/two_wheeled_robot'
+[0.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.529s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/main_pkg'
+[0.530s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.531s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake /home/nikorose/Documents/Repos/EkumenTechTest/src/two_wheeled_robot/two_wheeled_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot
+[0.541s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/ament_index/resource_index/packages/main_pkg
+[0.541s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.xml
+[0.541s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/main_pkg/node
+[0.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --editable --build-directory /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build --no-deps install_data --install-dir /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg
+[0.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_pkg', 'pythonpath_develop')
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/share/main_pkg/hook/pythonpath_develop.ps1'
+[0.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg' returned '0': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --editable --build-directory /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build --no-deps install_data --install-dir /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/share/main_pkg/hook/pythonpath_develop.dsv'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/share/main_pkg/hook/pythonpath_develop.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg' for CMake module files
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg' for CMake config files
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/bin'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/pkgconfig/main_pkg.pc'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages'
+[0.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_pkg', 'pythonpath')
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/pythonpath.ps1'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/pythonpath.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/pythonpath.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_pkg)
+[0.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.ps1'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.sh'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.bash'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.zsh'
+[0.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/colcon-core/packages/main_pkg)
+[1.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake /home/nikorose/Documents/Repos/EkumenTechTest/src/two_wheeled_robot/two_wheeled_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot
+[1.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot -- -j8 -l8
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot -- -j8 -l8
+[1.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot
+[1.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot' returned '1': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot
+[1.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_wheeled_robot)
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot' for CMake module files
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot' for CMake config files
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot/bin'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot/lib/pkgconfig/two_wheeled_robot.pc'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot/lib/python3.8/site-packages'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot/share/two_wheeled_robot/package.ps1'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot/share/two_wheeled_robot/package.sh'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot/share/two_wheeled_robot/package.bash'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot/share/two_wheeled_robot/package.zsh'
+[1.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot/share/colcon-core/packages/two_wheeled_robot)
+[1.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.423s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.428s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.445s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikorose/Documents/Repos/EkumenTechTest/install/local_setup.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nikorose/Documents/Repos/EkumenTechTest/install/_local_setup_util_ps1.py'
+[1.449s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikorose/Documents/Repos/EkumenTechTest/install/setup.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikorose/Documents/Repos/EkumenTechTest/install/local_setup.sh'
+[1.452s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nikorose/Documents/Repos/EkumenTechTest/install/_local_setup_util_sh.py'
+[1.452s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikorose/Documents/Repos/EkumenTechTest/install/setup.sh'
+[1.454s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikorose/Documents/Repos/EkumenTechTest/install/local_setup.bash'
+[1.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikorose/Documents/Repos/EkumenTechTest/install/setup.bash'
+[1.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikorose/Documents/Repos/EkumenTechTest/install/local_setup.zsh'
+[1.458s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikorose/Documents/Repos/EkumenTechTest/install/setup.zsh'

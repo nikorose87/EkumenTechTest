@@ -1,0 +1,15 @@
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake
+/home/nikorose/Documents/Repos/EkumenTechTest/src/actions_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml

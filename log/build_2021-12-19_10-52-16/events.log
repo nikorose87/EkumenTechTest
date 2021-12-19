@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (-) JobUnselected: {'identifier': 'main_pkg'}
+[0.000193] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000329] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000393] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.008176] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.008356] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces'], 'cwd': '/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nikorose'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2122'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nikorose'), ('OLDPWD', '/home/nikorose/Documents/Repos/EkumenTechTest/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1869'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9048'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nikorose/Documents/Repos/EkumenTechTest/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nikorose'), ('JOURNAL_STREAM', '8:54931'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nikorose'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/nikorose/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/NikoTUF:@/tmp/.ICE-unix/2156,unix/NikoTUF:/tmp/.ICE-unix/2156'), ('INVOCATION_ID', '0974d7c89af74dce9740858ff8257d10'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c712022-22e2-49e2-bbdf-03e5c5a64146'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099397] (-) TimerEvent: {}
+[0.165819] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.199453] (-) TimerEvent: {}
+[0.262326] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.268969] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299549] (-) TimerEvent: {}
+[0.319876] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.321106] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.370328] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.379322] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.379762] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.382531] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.399675] (-) TimerEvent: {}
+[0.438370] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.439513] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.495417] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.499761] (-) TimerEvent: {}
+[0.504400] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.504871] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.508692] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.528953] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.529278] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.599878] (-) TimerEvent: {}
+[0.700174] (-) TimerEvent: {}
+[0.702491] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.737960] (tutorial_interfaces) StderrLine: {'line': b"Error parsing '/home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces/package.xml':\n"}
+[0.800287] (-) TimerEvent: {}
+[0.826179] (tutorial_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.826433] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 597, in parse_package_string\n'}
+[0.826538] (tutorial_interfaces) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[0.826634] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString\n'}
+[0.826702] (tutorial_interfaces) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[0.826767] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[0.826832] (tutorial_interfaces) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[0.826896] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[0.826960] (tutorial_interfaces) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[0.827023] (tutorial_interfaces) StderrLine: {'line': b'xml.parsers.expat.ExpatError: junk after document element: line 20, column 0\n'}
+[0.827088] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.827153] (tutorial_interfaces) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[0.827217] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.827281] (tutorial_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.827344] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[0.827407] (tutorial_interfaces) StderrLine: {'line': b'    main()\n'}
+[0.827501] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[0.827564] (tutorial_interfaces) StderrLine: {'line': b'    raise e\n'}
+[0.827628] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main\n'}
+[0.827691] (tutorial_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.827755] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 599, in parse_package_string\n'}
+[0.827818] (tutorial_interfaces) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[0.827881] (tutorial_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces/package.xml':\n"}
+[0.827944] (tutorial_interfaces) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[0.828006] (tutorial_interfaces) StderrLine: {'line': b'junk after document element: line 20, column 0\n'}
+[0.843515] (tutorial_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[0.843679] (tutorial_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.843751] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.843816] (tutorial_interfaces) StderrLine: {'line': b'  /home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces/package.xml\n'}
+[0.843881] (tutorial_interfaces) StderrLine: {'line': b'  /home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces/ament_cmake_core/package.cmake)\n'}
+[0.843944] (tutorial_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[0.844071] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.844136] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.844200] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[0.844259] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)\n'}
+[0.844323] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.844384] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.844449] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.844517] (tutorial_interfaces) StdoutLine: {'line': b'See also "/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.847120] (tutorial_interfaces) CommandEnded: {'returncode': 1}
+[0.848044] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 1}
+[0.858944] (-) EventReactorShutdown: {}

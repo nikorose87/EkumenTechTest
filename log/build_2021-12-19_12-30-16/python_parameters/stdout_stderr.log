@@ -1,0 +1,41 @@
+/home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+running egg_info
+creating ../../build/python_parameters/python_parameters.egg-info
+writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build
+creating /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build/lib
+creating /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build/lib/python_parameters
+copying python_parameters/__init__.py -> /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build/lib/python_parameters
+copying python_parameters/python_parameters_node.py -> /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build/lib/python_parameters
+running install
+/home/nikorose/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages/python_parameters
+copying /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages/python_parameters
+copying /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages/python_parameters
+byte-compiling /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages/python_parameters/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-38.pyc
+running install_data
+creating /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/ament_index
+creating /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/ament_index/resource_index
+creating /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/ament_index/resource_index/packages
+copying resource/python_parameters -> /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/ament_index/resource_index/packages
+copying package.xml -> /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters
+running install_egg_info
+Copying ../../build/python_parameters/python_parameters.egg-info to /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info
+running install_scripts
+Installing param_talker script to /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python_parameters
+writing list of installed files to '/home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/install.log'

@@ -1,0 +1,441 @@
+[0.252s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.253s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1d1a47caf0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1d1a47caf0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1d19c963d0>)
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.257s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nikorose/Documents/Repos/EkumenTechTest'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'cmake'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['python_setup_py']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/main_pkg) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/main_pkg' with type 'ros.ament_python' and name 'main_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_parameters' with type 'ros.ament_python' and name 'python_parameters'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'main_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'main_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg', 'merge_install': False, 'path': '/home/nikorose/Documents/Repos/EkumenTechTest/src/main_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'more_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikorose/Documents/Repos/EkumenTechTest/build/more_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces', 'merge_install': False, 'path': '/home/nikorose/Documents/Repos/EkumenTechTest/src/more_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'python_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters', 'merge_install': False, 'path': '/home/nikorose/Documents/Repos/EkumenTechTest/src/python_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli', 'merge_install': False, 'path': '/home/nikorose/Documents/Repos/EkumenTechTest/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.306s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces'
+[0.312s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.320s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/main_pkg' with build type 'ament_python'
+[0.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_pkg', 'ament_prefix_path')
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/ament_prefix_path.ps1'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/ament_prefix_path.dsv'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/ament_prefix_path.sh'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.331s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/more_interfaces' with build type 'ament_cmake'
+[0.331s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/more_interfaces'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.335s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.338s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/python_parameters' with build type 'ament_python'
+[0.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'ament_prefix_path')
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/hook/ament_prefix_path.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/hook/ament_prefix_path.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/hook/ament_prefix_path.sh'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.343s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli:/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces -- -j8 -l8
+[0.604s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/main_pkg'
+[0.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.607s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli:/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/nikorose/Documents/Repos/EkumenTechTest/build/more_interfaces -- -j8 -l8
+[0.851s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/python_parameters'
+[0.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.853s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli:/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces -- -j8 -l8
+[0.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli:/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/nikorose/Documents/Repos/EkumenTechTest/build/more_interfaces -- -j8 -l8
+[0.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --uninstall --editable --build-directory /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build
+[0.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/python_parameters': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters --record /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/install.log --single-version-externally-managed
+[0.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli:/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/nikorose/Documents/Repos/EkumenTechTest/build/more_interfaces
+[0.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli:/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces
+[0.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[0.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli:/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/nikorose/Documents/Repos/EkumenTechTest/build/more_interfaces
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces' for CMake module files
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces' for CMake config files
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/lib'
+[0.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/bin'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/lib/python3.8/site-packages'
+[0.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'pythonpath')
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/pythonpath.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/pythonpath.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/pythonpath.sh'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/package.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/package.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/package.sh'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/package.bash'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/package.zsh'
+[0.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[0.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[0.989s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces' for CMake module files
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces' for CMake config files
+[0.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[0.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli:/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[0.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/lib'
+[0.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/bin'
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/lib/python3.8/site-packages'
+[0.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[1.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[1.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces' for CMake module files
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces' for CMake config files
+[1.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/lib'
+[1.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/bin'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/lib/python3.8/site-packages'
+[1.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'pythonpath')
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/pythonpath.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/pythonpath.dsv'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/hook/pythonpath.sh'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/package.ps1'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/package.dsv'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/package.sh'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/package.bash'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/more_interfaces/package.zsh'
+[1.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[1.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces' for CMake module files
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces' for CMake config files
+[1.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/lib'
+[1.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/bin'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/lib/python3.8/site-packages'
+[1.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[1.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[1.059s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/py_srvcli' with build type 'ament_python'
+[1.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[1.062s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.065s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.366s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nikorose/Documents/Repos/EkumenTechTest/src/py_srvcli'
+[1.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.370s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters' for CMake module files
+[1.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/python_parameters' returned '0': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters --record /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/install.log --single-version-externally-managed
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters' for CMake config files
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/bin'
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/pkgconfig/python_parameters.pc'
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages'
+[1.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'pythonpath')
+[1.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/hook/pythonpath.ps1'
+[1.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/hook/pythonpath.dsv'
+[1.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/hook/pythonpath.sh'
+[1.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_parameters)
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/package.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/package.dsv'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/package.sh'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/package.bash'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/python_parameters/package.zsh'
+[1.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/share/colcon-core/packages/python_parameters)
+[1.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg' returned '0': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --uninstall --editable --build-directory /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build
+[1.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/main_pkg': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_pkg build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --record /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/install.log --single-version-externally-managed
+[1.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/py_srvcli': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli --record /home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/install.log --single-version-externally-managed
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg' for CMake module files
+[1.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/main_pkg' returned '0': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_pkg build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --record /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/install.log --single-version-externally-managed
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg' for CMake config files
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib'
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/bin'
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/pkgconfig/main_pkg.pc'
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages'
+[1.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('main_pkg', 'pythonpath')
+[1.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/pythonpath.ps1'
+[1.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/pythonpath.dsv'
+[1.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/hook/pythonpath.sh'
+[1.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main_pkg)
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.ps1'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.dsv'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.sh'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.bash'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/main_pkg/package.zsh'
+[1.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/share/colcon-core/packages/main_pkg)
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli' for CMake module files
+[1.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/py_srvcli' returned '0': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/more_interfaces/lib/python3.8/site-packages:/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli --record /home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/install.log --single-version-externally-managed
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli' for CMake config files
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib'
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/bin'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages'
+[1.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[1.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/package.ps1'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/package.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/package.sh'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/package.bash'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/py_srvcli/package.zsh'
+[1.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[1.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.660s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.660s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.660s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.666s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.666s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.666s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.679s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikorose/Documents/Repos/EkumenTechTest/install/local_setup.ps1'
+[1.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nikorose/Documents/Repos/EkumenTechTest/install/_local_setup_util_ps1.py'
+[1.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikorose/Documents/Repos/EkumenTechTest/install/setup.ps1'
+[1.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikorose/Documents/Repos/EkumenTechTest/install/local_setup.sh'
+[1.684s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nikorose/Documents/Repos/EkumenTechTest/install/_local_setup_util_sh.py'
+[1.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikorose/Documents/Repos/EkumenTechTest/install/setup.sh'
+[1.688s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikorose/Documents/Repos/EkumenTechTest/install/local_setup.bash'
+[1.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikorose/Documents/Repos/EkumenTechTest/install/setup.bash'
+[1.691s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nikorose/Documents/Repos/EkumenTechTest/install/local_setup.zsh'
+[1.692s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nikorose/Documents/Repos/EkumenTechTest/install/setup.zsh'

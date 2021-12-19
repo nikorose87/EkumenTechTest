@@ -1,0 +1,60 @@
+[0.010s] Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces': /usr/bin/cmake /home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces
+[0.166s] -- The C compiler identification is GNU 9.3.0
+[0.262s] -- The CXX compiler identification is GNU 9.3.0
+[0.269s] -- Check for working C compiler: /usr/bin/cc
+[0.320s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.321s] -- Detecting C compiler ABI info
+[0.370s] -- Detecting C compiler ABI info - done
+[0.379s] -- Detecting C compile features
+[0.379s] -- Detecting C compile features - done
+[0.382s] -- Check for working CXX compiler: /usr/bin/c++
+[0.438s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.439s] -- Detecting CXX compiler ABI info
+[0.495s] -- Detecting CXX compiler ABI info - done
+[0.504s] -- Detecting CXX compile features
+[0.505s] -- Detecting CXX compile features - done
+[0.508s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.529s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.529s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.702s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.738s] Error parsing '/home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces/package.xml':
+[0.826s] Traceback (most recent call last):
+[0.826s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 597, in parse_package_string
+[0.826s]     root = dom.parseString(data)
+[0.826s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[0.826s]     return expatbuilder.parseString(string)
+[0.826s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[0.826s]     return builder.parseString(string)
+[0.827s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[0.827s]     parser.Parse(string, True)
+[0.827s] xml.parsers.expat.ExpatError: junk after document element: line 20, column 0
+[0.827s] 
+[0.827s] During handling of the above exception, another exception occurred:
+[0.827s] 
+[0.827s] Traceback (most recent call last):
+[0.827s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[0.827s]     main()
+[0.827s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[0.827s]     raise e
+[0.827s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[0.827s]     package = parse_package_string(
+[0.827s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 599, in parse_package_string
+[0.827s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.828s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces/package.xml':
+[0.828s] The manifest contains invalid XML:
+[0.828s] junk after document element: line 20, column 0
+[0.843s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.843s]   execute_process(/usr/bin/python3
+[0.843s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.843s]   /home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces/package.xml
+[0.844s]   /home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[0.844s]   returned error code 1
+[0.844s] Call Stack (most recent call first):
+[0.844s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.844s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.844s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.844s] 
+[0.844s] 
+[0.844s] -- Configuring incomplete, errors occurred!
+[0.844s] See also "/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.847s] Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/tutorial_interfaces' returned '1': /usr/bin/cmake /home/nikorose/Documents/Repos/EkumenTechTest/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/nikorose/Documents/Repos/EkumenTechTest/install/tutorial_interfaces

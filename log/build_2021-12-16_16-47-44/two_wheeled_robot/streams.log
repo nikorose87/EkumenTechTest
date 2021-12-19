@@ -1,0 +1,43 @@
+[0.218s] Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake /home/nikorose/Documents/Repos/EkumenTechTest/src/two_wheeled_robot/two_wheeled_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot
+[0.359s] -- The C compiler identification is GNU 9.3.0
+[0.461s] -- The CXX compiler identification is GNU 9.3.0
+[0.470s] -- Check for working C compiler: /usr/bin/cc
+[0.524s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.525s] -- Detecting C compiler ABI info
+[0.579s] -- Detecting C compiler ABI info - done
+[0.589s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.592s] -- Check for working CXX compiler: /usr/bin/c++
+[0.658s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.659s] -- Detecting CXX compiler ABI info
+[0.715s] -- Detecting CXX compiler ABI info - done
+[0.724s] -- Detecting CXX compile features
+[0.724s] -- Detecting CXX compile features - done
+[0.728s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.748s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.748s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.909s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.936s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.999s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.002s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.003s] -- Added test 'lint_cmake' to check CMake code style
+[1.004s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.006s] -- Added test 'xmllint' to check XML markup files
+[1.008s] -- Configuring done
+[1.010s] -- Generating done
+[1.010s] -- Build files have been written to: /home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot
+[1.013s] Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake /home/nikorose/Documents/Repos/EkumenTechTest/src/two_wheeled_robot/two_wheeled_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nikorose/Documents/Repos/EkumenTechTest/install/two_wheeled_robot
+[1.015s] Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot -- -j8 -l8
+[1.043s] Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot -- -j8 -l8
+[1.069s] Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot
+[1.075s] -- Install configuration: ""
+[1.075s] -- Execute custom install script
+[1.076s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[1.076s]   ament_cmake_symlink_install_directory() can't find
+[1.076s]   '/home/nikorose/Documents/Repos/EkumenTechTest/src/two_wheeled_robot/two_wheeled_robot/config'
+[1.076s] Call Stack (most recent call first):
+[1.076s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[1.076s]   cmake_install.cmake:41 (include)
+[1.076s] 
+[1.077s] 
+[1.077s] Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot' returned '1': CMAKE_PREFIX_PATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/nikorose/Documents/Repos/EkumenTechTest/build/two_wheeled_robot

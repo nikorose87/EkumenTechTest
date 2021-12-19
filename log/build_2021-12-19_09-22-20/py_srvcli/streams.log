@@ -1,0 +1,31 @@
+[0.430s] Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/py_srvcli': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli --record /home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/install.log --single-version-externally-managed
+[0.599s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.599s]   warnings.warn(
+[0.599s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.600s]   warnings.warn(
+[0.622s] running egg_info
+[0.622s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.622s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.622s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.622s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.623s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.625s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.626s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.626s] running build
+[0.626s] running build_py
+[0.626s] copying py_srvcli/service_member_function.py -> /home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/build/lib/py_srvcli
+[0.626s] running install
+[0.626s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.627s]   warnings.warn(
+[0.627s] running install_lib
+[0.628s] copying /home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[0.628s] byte-compiling /home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc
+[0.629s] running install_data
+[0.629s] running install_egg_info
+[0.630s] removing '/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[0.631s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[0.631s] running install_scripts
+[0.644s] Installing client script to /home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/py_srvcli
+[0.645s] Installing service script to /home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/py_srvcli
+[0.645s] writing list of installed files to '/home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/install.log'
+[0.662s] Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/py_srvcli' returned '0': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/py_srvcli --record /home/nikorose/Documents/Repos/EkumenTechTest/build/py_srvcli/install.log --single-version-externally-managed

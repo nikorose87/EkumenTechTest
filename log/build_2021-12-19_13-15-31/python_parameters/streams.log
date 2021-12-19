@@ -1,0 +1,27 @@
+[0.241s] Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/python_parameters': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters --record /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/install.log --single-version-externally-managed
+[0.420s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.420s]   warnings.warn(
+[0.420s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.420s]   warnings.warn(
+[0.442s] running egg_info
+[0.442s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[0.443s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[0.443s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[0.443s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[0.443s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[0.445s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[0.446s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[0.446s] running build
+[0.446s] running build_py
+[0.446s] running install
+[0.447s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.447s]   warnings.warn(
+[0.447s] running install_lib
+[0.448s] running install_data
+[0.449s] running install_egg_info
+[0.450s] removing '/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info' (and everything under it)
+[0.450s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages/python_parameters-0.0.0-py3.8.egg-info
+[0.451s] running install_scripts
+[0.464s] Installing param_talker script to /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python_parameters
+[0.464s] writing list of installed files to '/home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/install.log'
+[0.480s] Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/python_parameters' returned '0': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/python_parameters --record /home/nikorose/Documents/Repos/EkumenTechTest/build/python_parameters/install.log --single-version-externally-managed

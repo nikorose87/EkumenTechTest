@@ -1,0 +1,17 @@
+[0.221s] Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --uninstall --editable --build-directory /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build
+[0.386s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.386s]   warnings.warn(
+[0.386s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.386s]   warnings.warn(
+[0.426s] running develop
+[0.426s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.426s]   warnings.warn(
+[0.428s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.428s]   warnings.warn(
+[0.476s] /home/nikorose/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.13.1-unknown is an invalid version and will not be supported in a future release
+[0.476s]   warnings.warn(
+[0.476s] /home/nikorose/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[0.476s]   warnings.warn(
+[0.476s] /home/nikorose/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[0.476s]   warnings.warn(
+[0.553s] Removing /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages/main-pkg.egg-link (link to .)

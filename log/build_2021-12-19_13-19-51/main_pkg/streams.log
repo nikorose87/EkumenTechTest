@@ -1,0 +1,44 @@
+[0.553s] Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --uninstall --editable --build-directory /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build
+[0.762s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.763s]   warnings.warn(
+[0.763s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.763s]   warnings.warn(
+[0.840s] running develop
+[0.841s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.841s]   warnings.warn(
+[0.845s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.845s]   warnings.warn(
+[0.895s] /home/nikorose/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.13.1-unknown is an invalid version and will not be supported in a future release
+[0.895s]   warnings.warn(
+[0.896s] /home/nikorose/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.23ubuntu1 is an invalid version and will not be supported in a future release
+[0.896s]   warnings.warn(
+[0.896s] /home/nikorose/.local/lib/python3.8/site-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.36ubuntu1 is an invalid version and will not be supported in a future release
+[0.897s]   warnings.warn(
+[1.064s] Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg' returned '0': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --uninstall --editable --build-directory /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build
+[1.066s] Invoking command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/main_pkg': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_pkg build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --record /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/install.log --single-version-externally-managed
+[1.249s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.250s]   warnings.warn(
+[1.250s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.250s]   warnings.warn(
+[1.273s] running egg_info
+[1.274s] writing ../../build/main_pkg/main_pkg.egg-info/PKG-INFO
+[1.274s] writing dependency_links to ../../build/main_pkg/main_pkg.egg-info/dependency_links.txt
+[1.274s] writing entry points to ../../build/main_pkg/main_pkg.egg-info/entry_points.txt
+[1.274s] writing requirements to ../../build/main_pkg/main_pkg.egg-info/requires.txt
+[1.274s] writing top-level names to ../../build/main_pkg/main_pkg.egg-info/top_level.txt
+[1.277s] reading manifest file '../../build/main_pkg/main_pkg.egg-info/SOURCES.txt'
+[1.277s] writing manifest file '../../build/main_pkg/main_pkg.egg-info/SOURCES.txt'
+[1.277s] running build
+[1.278s] running build_py
+[1.278s] running install
+[1.278s] /home/nikorose/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.278s]   warnings.warn(
+[1.278s] running install_lib
+[1.279s] running install_data
+[1.280s] running install_egg_info
+[1.281s] removing '/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages/main_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.281s] Copying ../../build/main_pkg/main_pkg.egg-info to /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages/main_pkg-0.0.0-py3.8.egg-info
+[1.282s] running install_scripts
+[1.296s] Installing node script to /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/main_pkg
+[1.297s] writing list of installed files to '/home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/install.log'
+[1.322s] Invoked command in '/home/nikorose/Documents/Repos/EkumenTechTest/src/main_pkg' returned '0': PYTHONPATH=/home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_pkg build --build-base /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/build install --prefix /home/nikorose/Documents/Repos/EkumenTechTest/install/main_pkg --record /home/nikorose/Documents/Repos/EkumenTechTest/build/main_pkg/install.log --single-version-externally-managed
